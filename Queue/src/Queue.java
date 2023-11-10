@@ -10,7 +10,7 @@ public class Queue<E> {
 
     public Queue(){
         size = 0;
-        first = new QueueNode();
+        first = null;
     }
 
 
@@ -20,7 +20,7 @@ public class Queue<E> {
         QueueNode newNode = new QueueNode(element);
         QueueNode subNode = first;
         if (size == 0){
-            first.setValue(element);
+            first = new QueueNode(element);
         }else if (size == 1){
             first.setChildNode(newNode);
         }else{
