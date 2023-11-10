@@ -1,5 +1,4 @@
 // Roan Silver      Created: September 21st 2023        Last Edits: November 10th, 2023
-// Collaborators: Luke O'Drobinak & Ethan Ayers       Peer Comments: September 4th, 2023
 public class QueueNode<T, E> {
 
     // Instance Data !!!
